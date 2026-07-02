@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoke CZML Viewer</title>
+  <script>
+    window.CESIUM_BASE_URL = "https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/";
+  </script>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="viewer-page">
+  <div id="cesiumContainer"></div>
+
+  <figure id="referenceFrame" class="reference-frame" hidden>
+    <img id="referenceImage" alt="">
+    <figcaption id="referenceCaption"></figcaption>
+  </figure>
+
+  <aside class="viewer-panel">
+    <a class="back-link" href="index.html">Back</a>
+    <p id="demoKicker" class="eyebrow">Loading</p>
+    <h1 id="demoTitle">CZML Demo</h1>
+    <p id="demoDescription">Loading CZML sources...</p>
+    <p id="status" class="status">Starting Cesium...</p>
+  </aside>
+
+  <script src="demos.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>

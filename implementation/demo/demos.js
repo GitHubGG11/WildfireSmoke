@@ -1,0 +1,62 @@
+window.CZML_DEMOS = {
+  "mosquito-rockcreek": {
+    title: "Mosquito: Rock Creek",
+    kicker: "Mosquito fire",
+    description: "Run 10 smoke and cloud output loaded from the Mosquito Rock Creek camera set.",
+    referenceImage: "../../images/mosquito/ridgewood.jpg",
+    smoke: "../../mosquito/rockcreek/10/smoke.czml",
+    clouds: "../../mosquito/rockcreek/10/clouds.czml",
+    cameraRange: 3000,
+    pointPixelSize: 10,
+    particleAlphaMultiplier: 0.2,
+    elevationAlphaFloor: 0.22,
+    fillerPointsPerParticle: 55,
+    maxFillerPoints: 42000,
+    fillerTimeSamples: 32,
+    fillerSpreadMeters: 360,
+    fillerNearestDistanceBias: 720,
+    fillerBrownianMetersPerSecond: 11,
+    fillerBrownianMaxOffsetMeters: 55
+  },
+  "electra-redcorall": {
+    title: "Electra: Red Corall",
+    kicker: "Electra fire",
+    description: "Run 6 smoke and cloud output loaded from the Electra Red Corall camera set.",
+    referenceImage: "../../images/electra/redcorall.jpg",
+    smoke: "../../electra/redcorall/4/smoke.czml",
+    clouds: "../../electra/redcorall/4/clouds.czml",
+    cameraRange: 5600,
+    pointPixelSize: 10,
+    particleAlphaMultiplier: 0.42,
+    elevationAlphaFloor: 0.22,
+    fillerPointsPerParticle: 55,
+    maxFillerPoints: 42000,
+    fillerTimeSamples: 32,
+    fillerSpreadMeters: 360,
+    fillerNearestDistanceBias: 720,
+    fillerBrownianMetersPerSecond: 11,
+    fillerBrownianMaxOffsetMeters: 55
+  },
+  "summit-meadowlakes": {
+    title: "Summit Fire: Meadow Lakes",
+    kicker: "Summit fire",
+    description: "Run 5 smoke and cloud output loaded from the Summit Fire Meadow Lakes camera set.",
+    referenceImage: "../../images/summitfire/meadowlakes.jpg",
+    smoke: "../../summitfire/meadowlakes/5/smoke.czml",
+    clouds: "../../summitfire/meadowlakes/5/clouds.czml",
+    cameraRange: 6400,
+    pointPixelSize: 10,
+    particleAlphaMultiplier: 0.42,
+    elevationAlphaFloor: 0.22,
+    fillerPointsPerParticle: 55,
+    maxFillerPoints: 42000,
+    fillerTimeSamples: 32,
+    fillerSpreadMeters: 360,
+    fillerNearestDistanceBias: 720,
+    fillerBrownianMetersPerSecond: 11,
+    fillerBrownianMaxOffsetMeters: 55
+  }
+};
+
+window.CESIUM_ION_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZTIxNDU1ZC04NmQxLTQ2OWEtYTlkZS1kNTUzMDQ1ZWU5MjAiLCJpZCI6MTI2ODkwLCJpYXQiOjE2Nzc3MDI5Nzd9.Z_aKhzurjeaSidN2Ogwz2-VBQIdvYOhzzO2ui0dWN6s";
+window.CESIUM_ENABLE_TERRAIN = true;

@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "document",
+    "name": "Smoke Simulation",
+    "version": "1.0",
+    "clock": {
+      "interval": "2012-08-04T16:00:00Z/2012-08-04T16:05:00Z",
+      "currentTime": "2012-08-04T16:00:00Z",
+      "multiplier": 1
+    }
+  },
+  {
+    "id": "point_0",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5713980983717382,
+        0.8646666534626241,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_1",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5923945601284466,
+        2.002417800849801,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_2",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5905015895557902,
+        2.9867583122171943,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_3",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.6963589575743067,
+        4.00133178545714,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_4",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5616278250551285,
+        4.910190658419504,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_5",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5036718959914558,
+        5.952697830089787,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_6",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.6310568079153325,
+        6.932539418062102,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_7",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.5613386726096443,
+        7.9350970274498716,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_8",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.6533184476169124,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_9",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        0.6581630885382548,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_10",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.575384521890803,
+        0.9845860904428076,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_11",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.5666707286183599,
+        2.021670913110006,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_12",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.5446732635419804,
+        2.903136574084814,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_13",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.546097873854899,
+        3.9608130992874355,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_14",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.6125070424983896,
+        4.965996283627677,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_15",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.592149665889204,
+        6.011810926295717,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_16",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.520547969969646,
+        6.9294241741220866,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_17",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.5095669009094894,
+        7.958975811875149,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_18",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.6098432182863187,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_19",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        1.5851353215198811,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_20",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.6307382028124273,
+        0.9460786105060398,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_21",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.6408414521878294,
+        2.0210666148433325,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_22",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.518222653359204,
+        3.0169786110248977,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_23",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.7349480993547663,
+        4.022422214492493,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_24",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.6896411066280983,
+        5.001945083311718,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_25",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.552568814811201,
+        6.1346007266386575,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_26",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.574244309866779,
+        6.97845275297788,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_27",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.587790333399185,
+        7.925378266417647,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_28",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.7024059189418947,
+        8.948900134959764,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_29",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        2.663772854201164,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_30",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.631455378897433,
+        1.0642057641011928,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_31",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.658834334310847,
+        1.9743719145580776,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_32",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.6191558442448883,
+        2.9597854628666145,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_33",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.616946696675355,
+        3.972467617190604,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_34",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.602868442302077,
+        4.8955475977744465,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_35",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.6535555038932475,
+        6.002774887023208,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_36",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.6504105166496026,
+        6.9947217384254206,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_37",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.5314049226722806,
+        8.074814381984131,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_38",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.6146054250569155,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_39",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        3.5700087742969906,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_40",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.517712221537072,
+        0.9581214961718321,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_41",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.660650328683642,
+        2.0232719037802327,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_42",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.586501275774043,
+        2.978678213320721,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_43",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.558329017966469,
+        4.029723342618398,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_44",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.707284319187865,
+        5.034053792894531,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_45",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.54248661236794,
+        6.019078629930473,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_46",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.666426238269124,
+        6.991822220100613,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_47",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.553016541358409,
+        7.953795314211692,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_48",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.655629762003677,
+        8.974200995652394,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_49",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        4.533598504369908,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_50",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.567305073354723,
+        0.941193317995982,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_51",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.483849057982395,
+        2.014392097970877,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_52",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.623819338952991,
+        3.0329681568574216,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_53",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.6268854389653375,
+        3.9400561400199763,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_54",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.565617421981791,
+        5.04130768268166,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_55",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.62184099928582,
+        6.127950956875683,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_56",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.592808816978091,
+        6.93647394604142,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_57",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.554428595165305,
+        8.038040091694652,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_58",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.622206261317059,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_59",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        5.5693355954320065,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_60",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.675630648945779,
+        1.043162110015583,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_61",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.562790467112571,
+        1.8717453098161203,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_62",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.6499316882134245,
+        2.910896119047886,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_63",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.578069934121249,
+        3.862567385318484,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_64",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.594165897138581,
+        4.933029264033491,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_65",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.543301791493671,
+        5.9955920619684715,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_66",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.6648881511049085,
+        6.9693993334470115,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_67",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.603646773534716,
+        8.01144046418697,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_68",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.689355154865477,
+        8.94532189620746,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_69",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        6.466272665172157,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_70",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.591232926510908,
+        0.9181551722333484,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_71",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.632716869916385,
+        2.0244175772168354,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_72",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.488819203947325,
+        2.886541982952205,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_73",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.571920255121935,
+        3.9369974706539024,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_74",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.607754892405013,
+        4.9372306147359275,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_75",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.529051098299693,
+        6.1266676894856165,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_76",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.734181139241791,
+        6.938986632807454,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_77",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.5731659800952045,
+        8.03184544754777,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_78",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.523255770160499,
+        8.941842528206053,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_79",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        7.741385360122539,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_80",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.561772319958825,
+        0.9684920288335075,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_81",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.468368611304971,
+        1.9960178841328047,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_82",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.657988752254898,
+        2.8789005187336656,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_83",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.595706251233388,
+        3.9635263307112827,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_84",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.485635502922454,
+        4.892583650127205,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_85",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.572175188490847,
+        6.100204921045807,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_86",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.683869552272016,
+        7.047335348811222,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_87",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.58423130578879,
+        8.03886700540509,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_88",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.606338721089456,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_89",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        8.584589317337175,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_90",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        0.9253449785032527,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_91",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        1.9929941287436768,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_92",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        3.1444562829573592,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_93",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        4.066148123756008,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_94",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        5.050873001368491,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_95",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        6.033716579674146,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_96",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        6.922369744317162,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_97",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        8.073702605949126,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_98",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  },
+  {
+    "id": "point_99",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        9,
+        9,
+        3.606000000000001
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          255,
+          180
+        ]
+      }
+    }
+  }
+]
