@@ -385,13 +385,16 @@
     const positions = samples.map((sample) => sample.position);
     const sphere = Cesium.BoundingSphere.fromPoints(positions);
     const range = Math.max(demo.cameraRange || 4200, sphere.radius * 0.42);
+    const headingParam = params.get("heading");
+    const headingDegrees = headingParam === null ? (demo.cameraHeadingDegrees ?? 28) : Number(headingParam);
+    const pitchDegrees = demo.cameraPitchDegrees ?? -4;
     addFillerPointCloud(fillerSamples);
 
     viewer.camera.flyToBoundingSphere(sphere, {
       duration: 1.2,
       offset: new Cesium.HeadingPitchRange(
-        Cesium.Math.toRadians(28),
-        Cesium.Math.toRadians(-4),
+        Cesium.Math.toRadians(((headingDegrees % 360) + 360) % 360),
+        Cesium.Math.toRadians(pitchDegrees),
         range
       )
     });

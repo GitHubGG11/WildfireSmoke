@@ -67,6 +67,8 @@ Add an entry in `demos.js`:
   smoke: "../../fire_folder/camera_folder/run_number/smoke.czml",
   clouds: "../../fire_folder/camera_folder/run_number/clouds.czml",
   cameraRange: 5600,
+  cameraHeadingDegrees: 28,
+  cameraPitchDegrees: -4,
   pointPixelSize: 10,
   particleAlphaMultiplier: 0.42,
   elevationAlphaFloor: 0.22,
@@ -95,6 +97,8 @@ Then add a card in `index.html`:
 All main visual controls are in `demos.js`.
 
 - `cameraRange`: larger means the camera starts farther away
+- `cameraHeadingDegrees`: 0-360 degree orbit angle around the smoke for the initial view
+- `cameraPitchDegrees`: vertical camera angle; closer to 0 is more level, more negative looks downward
 - `pointPixelSize`: particle size
 - `particleAlphaMultiplier`: opacity multiplier for real and added particles
 - `elevationAlphaFloor`: minimum opacity for high-elevation particles
@@ -105,6 +109,12 @@ All main visual controls are in `demos.js`.
 - `fillerNearestDistanceBias`: controls gap-filling based on distance from nearest CZML point
 - `fillerBrownianMetersPerSecond`: random-walk motion strength
 - `fillerBrownianMaxOffsetMeters`: max random-walk distance from each generated point
+
+You can also test a different heading directly in the URL:
+
+```text
+viewer.html?demo=mosquito-rockcreek&heading=180
+```
 
 ## Terrain
 
