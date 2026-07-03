@@ -114,6 +114,12 @@
     status.textContent = `Viewer error: ${message}`;
   });
 
+  function cacheBustedUrl(path) {
+    const url = new URL(path, window.location.href);
+    url.searchParams.set("v", Date.now().toString());
+    return url.toString();
+  }
+
   function getPointColor(point, time) {
     if (!point || !point.color) {
       return undefined;
@@ -156,8 +162,12 @@
 
   function styleDataSource(dataSource) {
     const time = viewer.clock.currentTime;
-    const pointPixelSize = demo.pointPixelSize || 10;
+    const pointPixelSize = demo.pointPixelSize ?? 10;
     const alphaMultiplier = demo.particleAlphaMultiplier ?? 1;
+    const outlineWidth = demo.pointOutlineWidth ?? 0;
+    const outlineColor = demo.pointOutlineColor
+      ? Cesium.Color.fromCssColorString(demo.pointOutlineColor)
+      : Cesium.Color.TRANSPARENT;
     const positionedEntities = dataSource.entities.values
       .map((entity) => ({
         entity,
@@ -182,8 +192,8 @@
         : Cesium.Color.WHITE.withAlpha(alpha);
       entity.point.pixelSize = new Cesium.ConstantProperty(pointPixelSize);
       entity.point.color = new Cesium.ConstantProperty(styledColor);
-      entity.point.outlineWidth = new Cesium.ConstantProperty(0);
-      entity.point.outlineColor = new Cesium.ConstantProperty(Cesium.Color.TRANSPARENT);
+      entity.point.outlineWidth = new Cesium.ConstantProperty(outlineWidth);
+      entity.point.outlineColor = new Cesium.ConstantProperty(outlineColor);
       entity.point.disableDepthTestDistance = new Cesium.ConstantProperty(Number.POSITIVE_INFINITY);
       entity.point.scaleByDistance = undefined;
       entity.point.translucencyByDistance = undefined;
@@ -263,7 +273,11 @@
     const filler = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
     const perParticle = demo.fillerPointsPerParticle || 12;
     const maxFillerPoints = demo.maxFillerPoints || 30000;
-    const pointPixelSize = demo.pointPixelSize || 10;
+    const pointPixelSize = demo.pointPixelSize ?? 10;
+    const outlineWidth = demo.pointOutlineWidth ?? 0;
+    const outlineColor = demo.pointOutlineColor
+      ? Cesium.Color.fromCssColorString(demo.pointOutlineColor)
+      : Cesium.Color.TRANSPARENT;
     const ellipsoid = Cesium.Ellipsoid.WGS84;
     const spreadMeters = demo.fillerSpreadMeters || 420;
     const nearestDistanceBias = demo.fillerNearestDistanceBias || spreadMeters * 2;
@@ -326,8 +340,8 @@
       const point = filler.add({
         position: Cesium.Cartesian3.fromRadians(baseLongitude, baseLatitude, baseHeight),
         color: new Cesium.Color(baseColor.red, baseColor.green, baseColor.blue, alpha),
-        outlineColor: Cesium.Color.TRANSPARENT,
-        outlineWidth: 0,
+        outlineColor,
+        outlineWidth,
         pixelSize: pointPixelSize,
         disableDepthTestDistance: Number.POSITIVE_INFINITY
       });
@@ -402,7 +416,7 @@
 
   try {
     status.textContent = "Loading smoke CZML...";
-    const smoke = await Cesium.CzmlDataSource.load(demo.smoke);
+    const smoke = await Cesium.CzmlDataSource.load(cacheBustedUrl(demo.smoke));
     viewer.dataSources.add(smoke);
     setClockFromDataSource(smoke);
     styleDataSource(smoke);
@@ -411,7 +425,7 @@
 
     status.textContent = "Loading cloud CZML...";
     try {
-      const clouds = await Cesium.CzmlDataSource.load(demo.clouds);
+      const clouds = await Cesium.CzmlDataSource.load(cacheBustedUrl(demo.clouds));
       viewer.dataSources.add(clouds);
       styleDataSource(clouds);
       if (clouds.entities.values.length > 0) {

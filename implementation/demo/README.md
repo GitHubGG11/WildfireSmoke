@@ -2,7 +2,7 @@
 
 This folder is a static Cesium demo for viewing saved smoke/cloud CZML outputs.
 
-It is designed to work locally and on GitHub Pages as long as the repo keeps the same relative folder layout.
+It is designed to work locally and on GitHub Pages. The demo CZML files and reference images live under `czmlDemoFiles`, so the viewer does not need to reach back into the original research-output folders.
 
 ## Local Usage
 
@@ -27,6 +27,7 @@ Do not open `index.html` directly with `file://`; Cesium needs HTTP fetches to l
 - `demos.js` - demo definitions and tuning parameters
 - `viewer.js` - CZML loading, terrain, camera framing, particle fill logic
 - `styles.css` - page styling
+- `czmlDemoFiles/` - copied CZML files and reference images used by the demo
 
 ## GitHub Pages
 
@@ -46,13 +47,13 @@ Your demo URL should look like:
 https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/implementation/demo/index.html
 ```
 
-The demo uses relative paths such as:
+The demo uses local relative paths such as:
 
 ```js
-"../../mosquito/rockcreek/10/smoke.czml"
+"czmlDemoFiles/CZMLs/mosquito-rockcreek/smoke.czml"
 ```
 
-So the CZML folders must be pushed with the repo.
+So the `implementation/demo/czmlDemoFiles` folder must be pushed with the repo.
 
 ## Add A New Demo
 
@@ -63,9 +64,9 @@ Add an entry in `demos.js`:
   title: "Fire Name: Camera Name",
   kicker: "Fire name",
   description: "Short description.",
-  referenceImage: "../../images/fire_name/camera.jpg",
-  smoke: "../../fire_folder/camera_folder/run_number/smoke.czml",
-  clouds: "../../fire_folder/camera_folder/run_number/clouds.czml",
+  referenceImage: "czmlDemoFiles/czmlImages/my-demo-id/reference.jpg",
+  smoke: "czmlDemoFiles/CZMLs/my-demo-id/smoke.czml",
+  clouds: "czmlDemoFiles/CZMLs/my-demo-id/clouds.czml",
   cameraRange: 5600,
   cameraHeadingDegrees: 28,
   cameraPitchDegrees: -4,
